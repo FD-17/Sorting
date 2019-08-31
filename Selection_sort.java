@@ -1,5 +1,5 @@
 import java.util.*;
-public class Selection_Sort
+public class Selection_sort
 {
     static int[] Selection(int[] a){
         for(int i=0;i<a.length-1;i++){
