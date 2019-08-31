@@ -16,6 +16,6 @@ public class Bubble_sort
 	    for(int i=0;i<n;i++){
 	        arr[i]=sc.nextInt();
 	    }
-		System.out.println(Bubble(arr));
+		System.out.println(Arrays.toString(Bubble(arr)));
 	}
 }
