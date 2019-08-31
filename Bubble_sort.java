@@ -5,11 +5,13 @@ public class Bubble_sort
         for(int i=0;i<a.length-1;i++){
             for(int j=0;j<a.length-i-1;j++){
                 if(a[j]>a[j+1])
+			//swapping a[j] and a[j+1]
                 a[j+1]=(a[j+1]+a[j])-(a[j]=a[j+1]);
             }
         }return a;
     }
 	public static void main(String[] args) {
+		//Getting user input
 	    Scanner sc=new Scanner(System.in);
 	    int n=sc.nextInt();
 	    int arr[]=new int[n];
